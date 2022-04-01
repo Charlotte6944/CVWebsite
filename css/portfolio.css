@@ -1,0 +1,13 @@
+#portfolio {
+  padding: 3rem;
+}
+
+#portfolio > h2 {
+  text-align: center;
+  padding: 1rem;
+}
+
+#portfolio > img {
+  width: 350px;
+  border-radius: 32px;
+}

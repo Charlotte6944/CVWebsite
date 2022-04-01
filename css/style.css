@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Murecho:wght@300;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1em;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #FBF8F1;
+  font-size: 16px;;
+  font-family: 'Murecho';
+  line-height: 1.6;
+  font-weight: 300;
+  color: rgba(50, 50, 50, 1);
+}
+
+.container {
+  /* background-image: url('../images/Background\ image.png'); */
+  max-width: 100%;
+  padding: 0 3.2;
+  margin: 0 auto;
+}

@@ -1,0 +1,24 @@
+.banner {
+  background: no-repeat
+        linear-gradient(
+          to bottom,
+          rgba(255, 255, 255, 0.1),
+          rgba(255, 255, 255, 0.1)
+        ), url('../images/Background\ image.jpeg');
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: inherit;
+  z-index: 3;
+  display: flex;
+}
+
+.title {
+  margin-top: 16vh;
+  margin-left: 8vh;
+}
+
+.title > h3 {
+  color: #201911;
+}

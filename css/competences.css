@@ -1,0 +1,47 @@
+#competences {
+  padding: 4rem;
+}
+
+#competences > h2 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.card-competences {
+  background-color: rgba(50, 50, 50, 0.1);
+  border-radius: 32px;
+  padding: 1rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow:2px 2px 2px 1px rgba(50, 50, 50, 0.2);
+}
+
+.card-competences > h3 {
+  border-bottom: 1px solid #201911;
+  padding-bottom: 1rem;
+}
+
+.card-competences > * {
+  padding: 0.5rem;
+}
+
+.display-competences {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.fa-star-yellow {
+  color: #DBAC74;
+}
+
+.fa-star-black {
+  color: #201911;
+  opacity: 0.2;
+}
+
+.right > p {
+  text-align: left;
+}

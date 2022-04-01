@@ -1,0 +1,23 @@
+.btn-center {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-primary {
+  color: #201911;
+  background-color: #DBAC74;
+  width: 300px;
+  padding: 16px 32px;
+  border-radius: 32px;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  text-align: center;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  color: #DBAC74;
+  background-color: #201911;
+}

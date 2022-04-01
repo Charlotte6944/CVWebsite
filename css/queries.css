@@ -1,0 +1,148 @@
+@media screen and (min-width: 1000px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+  }
+
+  .nav ul {
+    margin-right: 4vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
+  .nav li {
+    display: inline;
+    font-family: 'Murecho', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    padding: 1em;
+  }
+
+  .nav li a {
+    color: #DBAC74;
+    cursor: pointer;
+  }
+
+  #aboutme, #competences, #portfolio, #loisirs, #contact{
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .btn-mobile-nav {
+    display: flex;
+    margin-left: 3rem;
+    margin-top: 0.2rem;
+  }
+
+  .display-flex-nav {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+  }
+
+  .display-flex-nav .a {
+    margin-bottom: 1em;
+  }
+
+  .nav-open {
+    display: flex;
+    color: #DBAC74;
+    height: 100vh;
+  }
+
+  .nav-open > ul > li {
+    border-bottom: 1px solid #DBAC74;
+    margin-top: 3rem;
+  }
+}
+
+/* gestion font-size during responsive */
+
+@media screen and (max-width: 880px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 738px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 607px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+}
+
+/* aboutme responsive */
+
+@media screen and (max-width:550px) {
+
+}
+
+/* display grid card when you enlarge window */
+
+@media screen and (max-width:650px) {
+  .card-competences {
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .card-competences {
+    width: 350px;
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 1090px) {
+  .card-competences-display {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+}
+
+/* display grid card when you enlarge window */
+
+@media screen and (min-width: 1090px) {
+  .card_contact_display {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+}
+
+/* display grid card-loisirs when you enlarge window */
+
+@media screen and (min-width: 800px) {
+  .card_loisirs_display {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+}
+
+@media screen and (min-width: 1090px) {
+  .card_loisirs_display {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+}

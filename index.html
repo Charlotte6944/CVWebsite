@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Charlotte's profil</title>
+  <script src="https://kit.fontawesome.com/52e2ead4cf.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/text.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/button.css">
+  <link rel="stylesheet" href="./css/banner.css">
+  <link rel="stylesheet" href="./css/aboutme.css">
+  <link rel="stylesheet" href="./css/competences.css">
+  <link rel="stylesheet" href="./css/portfolio.css">
+  <link rel="stylesheet" href="./css/loisirs.css">
+  <link rel="stylesheet" href="./css/contact.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/queries.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+  <script defer src="./script.js"></script>
+</head>
+
+<body>
+  <header class="header" id="header-id">
+    <button class="btn-mobile-nav">
+      <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+    </button>
+    <div class="display-flex-nav">
+      <nav class="nav">
+        <ul class="main-nav-list">
+          <li>
+            <a href="">
+              <i class="fa-solid fa-house"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#aboutme">A PROPOS</a>
+          </li>
+          <li>
+            <a href="#competences">COMPETENCES</a>
+          </li>
+          <li>
+            <a href="#portfolio">PROJETS REALISÉS</a>
+          </li>
+          <li>
+            <a href="#loisirs">LOISIRS</a>
+          </li>
+          <li>
+            <a href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="banner">
+      <div class="title">
+        <h2>Charlotte MARION</h2>
+        <h1>Développeuse web Fullstack Ruby</h1>
+        <h3>Je suis à la recherche d'un emploi en CDI (temps plein)</h3>
+        <h3>à Lyon ou full remote</h3>
+      </div>
+    </div>
+
+    <!-- Section à propos de moi -->
+    <div id="aboutme">
+      <h2>A propos de moi</h2>
+      <div class="img-container">
+        <img class="image" src="images/charlotte.jpeg" alt="Charlotte's profil">
+      </div>
+      <div class="about-list">
+        <p><b>Name:</b> Charlotte MARION</p>
+        <p><b>Age:</b> <span class="age"></span> ans</p>
+        <p><b>Lieu d'habitation:</b> Lyon (69)</p>
+      </div>
+      <p>Développeuse web junior, je recherche un emploi ou des missions Freelance après avoir fait ma formation
+        de développeuse web au Wagon de Lyon de janvier à mars 2022.</p>
+      <p>Après plusieurs années dans le tourisme, j’ai choisi de me reconvertir dans le développement d’applications
+        web. Cette formation a été une expérience enrichissante me permettant d’acquérir des compétences techniques
+        et de l’autonomie.</p>
+      <p>Je profite actuellement du temps dont je dispose pour continuer d’apprendre en réalisant des projets web
+        personnels mais également en apprenant de nouvelles technologies (Angular).</p>
+      <p>Ayant une formation initiale en physique-chimie (master), j’ai toujours été de nature curieuse et
+        persévérante nécessaire à la résolution de problèmes scientifiques et me semble-t-il nécessaire pour une
+        développeuse web. Touche à tout, je m’intéresse depuis longtemps à la réalisation de sites internets, j’ai
+        eu l’occasion d’en créer lors de mes expériences passées via googlesite.</p>
+      <p>Mes expériences professionnelles m’ont fait monter en compétence au niveau du travail d’équipe mais
+        également de mon autonomie, permettant aujourd’hui de pouvoir m’adapter à un nouvel environnement de
+        travail. Mes compétences commerciales me permettent d’avoir toujours à l’esprit de satisfaire au mieux la
+        demande du client et ainsi faire en sorte que les projets soient améliorés et le code optimisé.</p>
+      <div class="btn-center">
+        <div class="btn-primary" type="submit" onclick="window.open('files/cv.pdf')">Télécharger mon cv</div>
+      </div>
+    </div>
+
+    <!-- Section compétences -->
+    <div id="competences">
+      <h2>Compétences</h2>
+      <div class="card-competences-display">
+        <div class="card-competences">
+          <h3>Languages</h3>
+          <div class="display-competences">
+            <p>Ruby</p>
+            <div class="stars">
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-black"></i>
+            </div>
+          </div>
+          <div class="display-competences">
+            <p>JavaScript ES6</p>
+            <div class="stars">
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-black"></i>
+            </div>
+          </div>
+          <div class="display-competences">
+            <p>HTML</p>
+            <div class="stars">
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-black"></i>
+            </div>
+          </div>
+          <div class="display-competences">
+            <p>CSS</p>
+            <div class="stars">
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-black"></i>
+            </div>
+          </div>
+          <div class="display-competences">
+            <p>SQL</p>
+            <div class="stars">
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-black"></i>
+              <i class="fa-solid fa-star fa-star-black"></i>
+            </div>
+          </div>
+          <div class="display-competences">
+            <p>Ajax</p>
+            <div class="stars">
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-black"></i>
+            </div>
+          </div>
+          <div class="display-competences">
+            <p>JSON</p>
+            <div class="stars">
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-black"></i>
+            </div>
+          </div>
+          <div class="display-competences">
+            <p>SASS</p>
+            <div class="stars">
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-black"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card-competences">
+          <h3>Frameworks/services</h3>
+          <div class="display-competences">
+            <p>Ruby on rails</p>
+            <div class="stars">
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-black"></i>
+            </div>
+          </div>
+          <div class="display-competences">
+            <p>Angular</p>
+            <div class="stars">
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-black"></i>
+              <i class="fa-solid fa-star fa-star-black"></i>
+            </div>
+          </div>
+          <div class="display-competences">
+            <p>Bootstrap</p>
+            <div class="stars">
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-black"></i>
+              <i class="fa-solid fa-star fa-star-black"></i>
+            </div>
+          </div>
+          <div class="display-competences">
+            <p>Tailwind</p>
+            <div class="stars">
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-black"></i>
+              <i class="fa-solid fa-star fa-star-black"></i>
+            </div>
+          </div>
+          <div class="display-competences">
+            <p>API REST</p>
+            <div class="stars">
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-black"></i>
+            </div>
+          </div>
+          <div class="display-competences">
+            <p>PostgreSQL</p>
+            <div class="stars">
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-black"></i>
+            </div>
+          </div>
+          <div class="display-competences">
+            <p>jQuery</p>
+            <div class="stars">
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-yellow"></i>
+              <i class="fa-solid fa-star fa-star-black"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card-competences right">
+        <h3>Environnements</h3>
+        <p><b>Système d'exploitation</b>: Mac Os, Windows 11</p>
+        <p><b>Workflow</b>: Git, Chrome, Slack, Postman, Cloudinary, Heroku</p>
+        <p><b>IDE</b>: Visual Studio Code</p>
+        <p><b>Savoir-être</b>: sens de l'organisation, travail en équipe, force de proposition</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section portfolio -->
+    <div id="portfolio">
+      <h2>Projets réalisés</h2>
+    </div>
+
+    <!-- Section loisirs -->
+    <div id="loisirs">
+      <h2>Loisirs</h2>
+      <div class="card_loisirs_display">
+        <div class="box">
+          <div class="card-loisirs">
+            <div class="imgBx">
+                <img src="/images/appareil-photo.jpeg" alt="images">
+            </div>
+            <div class="details">
+                <h3>Voyage/Photographie<br></h3>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="card-loisirs">
+            <div class="imgBx">
+                <img src="/images/badminton.jpeg" alt="images">
+            </div>
+            <div class="details">
+                <h3>Badminton<br></h3>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="card-loisirs">
+            <div class="imgBx">
+                <img src="/images/jeux.jpeg" alt="images">
+            </div>
+            <div class="details">
+                <h3>Jeux de société<br></h3>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="card-loisirs">
+            <div class="imgBx">
+                <img src="/images/violon.jpeg" alt="images">
+            </div>
+            <div class="details">
+                <h3>Musique<br></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section contact -->
+    <div id="contact">
+      <h2>N'hésitez pas à me contacter</h2>
+      <p>Actuellement à la recherche d'une nouvelle oportunité professionnelle,</p>
+      <p>je recherche un poste de <b>Developeuse web fullstack</b></p>
+      <div class="card_contact_display">
+        <div class="card">
+          <div class="slide slide1">
+            <div class="content">
+              <div class="icon">
+                <i class="fa-solid fa-mobile-screen"></i>
+              </div>
+            </div>
+          </div>
+          <div class="slide slide2">
+            <div class="content">
+              <p class="contact-title">+33 6 77 38 47 96</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="slide slide1">
+            <div class="content">
+              <div class="icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+            </div>
+          </div>
+          <div class="slide slide2">
+            <div class="content">
+              <p class="contact-title" itemprop="email">
+                <a href="mailto:marion.charlotte@orange.fr" class="email">marion.charlotte<span class="aro">@</span>orange.fr</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="slide slide1">
+            <div class="content">
+              <div class="icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+            </div>
+          </div>
+          <div class="slide slide2">
+            <div class="content">
+              <p class="contact-title">Lyon (69)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/charlottemarion/" target="_blank">
+            <i class="fab fa-linkedin link-blue"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Charlotte6944" target="_blank">
+            <i class="fab fa-github link-blue"></i>
+          </a>
+        </li>
+      </ul>
+      <p>Charlotte MARION &copy; <span class="year"></span> Tous droits réservés.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+#loisirs > h2 {
+  text-align: center;
+  padding: 4rem;
+}
+
+.box {
+  padding: 2rem;
+}
+
+.card-loisirs {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background: rgba(219, 172, 116, 0.2);
+  border-radius: 32px;
+  box-shadow:0 2px 10px rgba(0,0,0,.2);
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.card-loisirs:hover:before {
+  transform: rotate(20deg);
+  box-shadow: 0 2px 20px rgba(0,0,0,.2);
+}
+
+.card-loisirs:hover:after {
+  transform: rotate(10deg);
+  box-shadow: 0 2px 20px rgba(0,0,0,.2);
+}
+
+.card-loisirs .imgBx {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  bottom: 20px;
+  right: 20px;
+  transition: 0.5s;
+  z-index: 1;
+  border-radius: 32px;
+}
+
+.card-loisirs:hover .imgBx {
+  bottom: 80px;
+}
+
+.card-loisirs .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 32px;
+}
+
+.card-loisirs .details {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  height: 60px;
+  text-align: center;
+}
+
+.card-loisirs .details h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: #201911;
+  text-transform: uppercase;
+}
+
+.card-loisirs .details h2 span {
+  font-weight: 500;
+  font-size: 16px;
+  color: #DBAC74;
+  display: block;
+  margin-top: 5px;
+}

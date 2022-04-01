@@ -1,0 +1,30 @@
+#aboutme {
+  padding: 3rem;
+}
+
+#aboutme > h2 {
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.img-container {
+  float: left;
+  width: 40%;
+  text-align: center;
+  margin-right: 3rem;
+  padding: 2rem;
+  padding-left: 2rem;
+}
+
+.image {
+  width: 100%;
+  max-width: 300px;
+  min-width: 120px;
+  height: auto;
+  border-radius: 30%;
+}
+
+.about-list {
+  margin-bottom: 1rem;
+}

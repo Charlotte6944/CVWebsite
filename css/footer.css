@@ -1,0 +1,37 @@
+.footer {
+  background-color: rgba(32, 25, 17, 0.3);
+  width: 100vw;
+  height: auto;
+}
+
+.footer > ul {
+  display: flex;
+  justify-content: center;
+}
+
+.fab {
+  font-size: 40px;
+  color: #201911;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.fab:hover {
+  color: #DBAC74;
+}
+
+.footer > p {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.fa-arrow-up {
+  font-size: 3rem;
+  position: absolute;
+  right: 0;
+  padding: 2rem;
+  background-color: #201911;
+  color: rgba(219, 172, 116, 0.7);
+}
