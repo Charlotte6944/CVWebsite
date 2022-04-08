@@ -24,7 +24,11 @@
     cursor: pointer;
   }
 
-  #aboutme, #competences, #portfolio, #loisirs, #contact{
+  #aboutme, #competences, #portfolio, #loisirs{
+    height: 100vh;
+  }
+
+  #contact {
     height: auto;
   }
 }

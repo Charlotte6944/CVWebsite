@@ -1,5 +1,6 @@
 #contact {
   padding: 3rem;
+  background-color: white;
 }
 
 #contact > h2 {
@@ -65,7 +66,7 @@
   box-sizing: border-box;
   transition: .8s;
   transform: translateY(-100px);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+  box-shadow:2px 2px 2px 1px rgba(50, 50, 50, 0.2);
   border-radius: 32px;
 }
 
