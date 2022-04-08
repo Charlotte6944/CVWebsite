@@ -8,32 +8,28 @@
   padding: 1rem;
 }
 
-#portfolio > img {
-  width: 350px;
-  border-radius: 32px;
-}
-
 .card-projet {
   margin-top: 2rem;
-  height: 300px;
+  height: 400px;
   display: flex;
-  box-shadow:2px 2px 2px 1px rgba(50, 50, 50, 0.2);
+  padding-bottom: 3rem;
   border-radius: 32px;
-  background-color: rgba(50, 50, 50, 0.1);
+  border-bottom: 2px solid rgba(50, 50, 50, 0.1);
+  align-items: center;
 }
 
 .image-projet {
-  margin: 10px auto;
-  width: 400px;
-  height: auto;
+  margin: 0 auto;
+  height: 350px;
+  width: 580px;
   border-radius: 32px;
 }
 
 .text-projet {
-  padding-left: 1rem;
+  padding-top: 2rem;
   margin: 10px auto;
   width: 540px;
-  height: 280px;
+  height: inherit;
 }
 
 .flex-between {
@@ -46,4 +42,10 @@
   background-color: #DBAC74;
   border-radius: 32px;
   padding: 0.2rem 0.4rem;
+}
+
+.puce {
+  list-style-type: square;
+  margin-left: 2rem;
+  padding-left: 1rem;
 }
