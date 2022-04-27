@@ -35,3 +35,7 @@
   background-color: #201911;
   color: rgba(219, 172, 116, 0.7);
 }
+
+.icon-footer {
+  transition: 0.2s ease-in-out;
+}
