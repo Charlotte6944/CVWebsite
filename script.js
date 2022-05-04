@@ -36,3 +36,7 @@ window.onscroll = function() {
 // Set my age
 const myAgeEl = document.querySelector(".age");
 myAgeEl.textContent = currentYear - 1989;
+
+
+// move portfolio card
+const yearEl = document.querySelector(".move-card");

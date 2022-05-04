@@ -24,11 +24,7 @@
     cursor: pointer;
   }
 
-  #aboutme, #competences, #portfolio, #loisirs{
-    height: 100vh;
-  }
-
-  #contact {
+  #aboutme, #competences, #portfolio, #loisirs, #contact{
     height: auto;
   }
 }
@@ -101,7 +97,9 @@
 /* aboutme responsive */
 
 @media screen and (max-width:550px) {
-
+  #aboutme {
+    height: 100vh;
+  }
 }
 
 /* display grid card when you enlarge window */
@@ -148,5 +146,44 @@
   .card_loisirs_display {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+}
+
+/* portfolio responsive */
+
+@media screen and (max-width: 1300px) {
+  .image-projet {
+    height: 300px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 985px) {
+  .image-projet {
+    height: 150px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .flex-between {
+    justify-content: center;
+  }
+  .background-li {
+    margin: 0.5rem;
+  }
+  .image-projet {
+    display: none;
+  }
+}
+
+/* contact open card for phone and tablet */
+
+@media screen and (max-width: 1000px) {
+  .card .icon {
+    display: none;
+  }
+  .card .slide2 {
+    background-color: #DBAC74;
   }
 }

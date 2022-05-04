@@ -16,6 +16,7 @@
   display: grid;
   place-items: center;
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .card .icon {
