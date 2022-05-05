@@ -24,7 +24,7 @@
     cursor: pointer;
   }
 
-  #aboutme, #competences, #portfolio, #loisirs, #contact{
+  #competences, #portfolio, #loisirs, #contact{
     height: 100vh;
   }
 }
