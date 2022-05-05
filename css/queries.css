@@ -24,7 +24,7 @@
     cursor: pointer;
   }
 
-  #competences, #portfolio, #loisirs, #contact{
+  #aboutme, #competences, #portfolio, #loisirs, #contact{
     height: 100vh;
   }
 }
@@ -102,7 +102,7 @@
   }
 }
 
-/* display grid card when you enlarge window */
+/* display grid card competences when you enlarge window */
 
 @media screen and (max-width:650px) {
   .card-competences {
@@ -124,12 +124,49 @@
   }
 }
 
-/* display grid card when you enlarge window */
+/* display grid card contact when you enlarge window */
 
 @media screen and (min-width: 1090px) {
   .card_contact_display {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+}
+
+/* card contact open card for phone and tablet */
+
+@media screen and (max-width: 1000px) {
+  .card .icon {
+    display: none;
+  }
+  .card .slide2 {
+    background-color: #DBAC74;
+  }
+  .fa-solid {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: #201911;
+    padding-top: 1rem;
+    padding: 2em;
+  }
+  .card .slide.slide2 .content p {
+    margin: 0;
+    padding-top: 2rem;
+    text-align: center;
+    color: #201911;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .card:hover .slide.slide2{
+    transform: translateY(0);
+    border-radius: 32px;
+  }
+  .display-none {
+    display: none;
   }
 }
 
@@ -191,16 +228,5 @@
   }
   .image-projet {
     display: none;
-  }
-}
-
-/* contact open card for phone and tablet */
-
-@media screen and (max-width: 1000px) {
-  .card .icon {
-    display: none;
-  }
-  .card .slide2 {
-    background-color: #DBAC74;
   }
 }

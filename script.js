@@ -39,4 +39,4 @@ myAgeEl.textContent = currentYear - 1989;
 
 
 // move portfolio card
-const yearEl = document.querySelector(".move-card");
+// const yearEl = document.querySelector(".move-card");

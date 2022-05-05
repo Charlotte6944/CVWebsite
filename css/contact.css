@@ -71,11 +71,6 @@
   border-radius: 32px;
 }
 
-.card:hover .slide.slide2{
-  transform: translateY(0);
-  border-radius: 32px;
-}
-
 .card .slide.slide2::after{
   content: "";
   position: absolute;
