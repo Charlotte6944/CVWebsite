@@ -149,6 +149,23 @@
   }
 }
 
+@media screen and (max-width: 900px) {
+  .card-loisirs .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 32px;
+    padding-bottom: 2rem;
+  }
+
+  .card-loisirs:hover .imgBx {
+    bottom: 20px;
+  }
+}
+
 /* portfolio responsive */
 
 @media screen and (max-width: 1300px) {
