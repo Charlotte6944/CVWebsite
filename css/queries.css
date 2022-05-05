@@ -158,6 +158,10 @@
     text-align: center;
     color: #201911;
   }
+  .card {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 1000px) {

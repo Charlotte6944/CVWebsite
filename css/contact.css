@@ -78,7 +78,6 @@
   height: 4px;
   bottom: 15px;
   left: 50%;
-  left: 50%;
   transform: translateX(-50%);
   background: #201911;
 }
@@ -93,7 +92,7 @@
 .card .slide.slide2 .content p {
   margin: 0 0 10px 0;
   padding: 0;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
   color: #201911;
 }
