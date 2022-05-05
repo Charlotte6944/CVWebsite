@@ -4,18 +4,36 @@
   justify-content: center;
 }
 
-.btn-primary {
-  color: #201911;
-  background-color: #DBAC74;
-  width: 300px;
-  padding: 16px 32px;
-  border-radius: 32px;
-  opacity: 0.6;
-  transition: opacity 0.3s ease;
-  text-align: center;
-  margin-top: 4rem;
-  cursor: pointer;
+@media screen and (min-width: 1000px) {
+  .btn-primary {
+    color: #201911;
+    background-color: #DBAC74;
+    width: 300px;
+    padding: 16px 32px;
+    border-radius: 32px;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    margin-top: 4rem;
+    cursor: pointer;
+  }
 }
+
+@media screen and (max-width: 1000px) {
+  .btn-primary {
+    color: #201911;
+    background-color: #DBAC74;
+    width: 200px;
+    padding: 8px 16px;
+    border-radius: 32px;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    margin-top: 4rem;
+    cursor: pointer;
+  }
+}
+
 
 .btn-primary:hover {
   color: #DBAC74;
