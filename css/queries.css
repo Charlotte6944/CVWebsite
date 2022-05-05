@@ -25,7 +25,7 @@
   }
 
   #aboutme, #competences, #portfolio, #loisirs, #contact{
-    height: auto;
+    height: 100vh;
   }
 }
 
@@ -96,9 +96,9 @@
 
 /* aboutme responsive */
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:2100px) {
   #aboutme {
-    height: 100vh;
+    height: 100%;
   }
 }
 
